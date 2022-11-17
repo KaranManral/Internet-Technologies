@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack</title>
+</head>
+
+<body>
+    <label> Enter value to be added to stack:</label><br>
+    <input id="box" type="text"><br>
+    <textarea id="area" readonly></textarea><br>
+    <button onclick="push1()">PUSH</button>
+    <button onclick="pop1()">POP</BUTTON>
+    <script>
+        let data = [];
+        function push1() {
+            let input = document.getElementById("box").value;
+            if (input != "") {
+                data.push(input);
+                document.getElementById("area").value = data;
+                document.getElementById("box").value = "";
+            }
+        }
+        function pop1() {
+            if (data.length <= 0)
+                alert("Stack Empty");
+            else {
+                alert("Popped Element:- " + data[data.length - 1]);
+                data.pop();
+                document.getElementById("area").value = data;
+            }
+        }
+    </script>
+</body>
+
+</html>
