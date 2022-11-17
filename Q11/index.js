@@ -3,10 +3,10 @@ const http = require("http");
 const fs = require("fs");
 
 let connection = mysql.createConnection({
-    port: 8000,
+
     host: "localhost",
     user: "root",
-    password: "Ksm@0192",
+    password: "password",
     database: "merastore"
 })
 
