@@ -1,30 +1,34 @@
 {
   "Pet1": {
-    "name": "Max",
+    "name": "Tom",
     "age": "4",
     "weight": "20",
-    "pet_type": "DOG",
+    "pet_type": "CAT",
+    "gender": "Male",
     "favorite_task": "Drink Milk"
   },
   "Pet2": {
-    "name": "Tommy",
+    "name": "Jerry",
     "age": "2",
     "weight": "10",
-    "pet_type": "DOG",
+    "pet_type": "Mouse",
+    "gender": "Female",
     "favorite_task": "Eat Cheese"
   },
   "Pet3": {
-    "name": "Jack",
+    "name": "Bob",
     "age": "5",
     "weight": "30",
-    "pet_type": "CAT",
-    "favorite_task": "Chase Mouse"
+    "pet_type": "DOG",
+    "gender": "Male",
+    "favorite_task": "Chase Cat"
   },
   "Pet4": {
     "name": "Oggy",
     "age": "3",
     "weight": "20",
     "pet_type": "CAT",
+    "gender": "Male",
     "favorite_task": "Watching TV"
   }
 }
