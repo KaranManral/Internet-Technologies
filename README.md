@@ -16,3 +16,14 @@
 
 ### Additional Questions
 
+#### Q12. WAP to move an image on pressing start button and stop moving it on pressing stop button.
+#### Q13. WAP to move an image horizontally on pressing start button and reset its position when it reaches end of screen.
+#### Q14. WAP to increase the size of image on hovering mouse over it and reset its size when mouse is outside image.
+#### Q15. WAP a program to check input type password and hidden and check if password’s value is accessible in alert box or not.
+#### Q16. WAP to implement stack in JavaScript and use inbuilt push and pop operations.
+#### Q17. WAP to connect Node.js to MySQL and check if connection established or not.
+#### Q18. WAP to create digital clock.
+#### Q19. WAP to add or remove a textbox on button click.
+#### Q20. WAP to check if input string is a number, character or symbol.
+#### Q21. WAP for Bubble Sort.
+#### Q22. WAP to create a MySQL database and create a table in it.
